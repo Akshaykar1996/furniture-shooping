@@ -22,3 +22,34 @@
   width: 100%;
   border-bottom: 2px solid #d9d9d9;
 }
+.bottomNav{
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  height: 80px;
+  /* display: flex; */
+}
+.bottomIconList{
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  border-top: 1px solid #d9d9d9;
+  height: 80px;
+}
+.btnNav{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottomNavBar{
+  display: none;
+}
+@media all and (max-width: 850px) {
+.sideNav{
+  display: none;
+}
+.bottomNavBar{
+  display: block;
+}
+}
