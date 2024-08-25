@@ -9,8 +9,10 @@ export const Login = ({ children }) => {
       {!accessTokenObj && (
         <div className="Loginbody">
           <div className="container">
-            <div className="heading">FURNITURE SHOOPING</div>
-
+            <div className="heading">
+              <h1>FURNITURE SHOOPING</h1>
+              </div>
+            <div className="LoginBox">
             <div className="box">
               <h2 className="log">Log In With</h2>
               <div className="img-container">
@@ -69,6 +71,8 @@ export const Login = ({ children }) => {
                 </p>
               </div>
             </div>
+            </div>
+
           </div>
         </div>
       )}

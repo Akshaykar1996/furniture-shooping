@@ -2,6 +2,8 @@
     width: 100%;
     background-color: rgb(96, 109, 212);
     /* background-image: url(public/image/image1.jpg); */
+    height: 100vh;
+
 }
 
 .google{
@@ -10,24 +12,35 @@
 
 .container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
 }
 .heading{
-    font-size: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    padding-top: 20rem;
     color: white;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading >h1{
+    font-size: 80px;
+
 }
 
+.LoginBox{
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .box{
     width: 23rem;
     height: 30rem;
     background-color: rgb(219, 208, 208);
-    margin-top: 7.5rem;
     border-radius: 10px;
-    margin-bottom: 8.1rem;
 }
 
 .log{
