@@ -26,7 +26,7 @@ export const Login = ({ children }) => {
                 </div>
                 <div>
                   <button className="button">
-                    <i className="icon" class="fa-brands fa-apple"></i>Apple
+                    <i className="fa-brands fa-apple"></i>Apple
                   </button>
                 </div>
               </div>

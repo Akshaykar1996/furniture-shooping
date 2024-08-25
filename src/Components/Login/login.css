@@ -42,12 +42,21 @@
     justify-content: space-evenly;
 }
 
+
+.fa-apple{
+  color: blue;
+  font-size: 25px;
+}
+
 .button{
     height: 40px;
     width: 140px;
     margin-top: 5px;
     border-radius: 5px;
-    border: 1px solid black;    
+    border: 1px solid black; 
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;  
 }
 
 .icon{
