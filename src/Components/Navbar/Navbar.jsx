@@ -32,7 +32,7 @@ export const SideNavbar = ({ children }) => {
           </div>
         </div>
 
-        <div>{children}</div>
+        <div className="allContainer">{children}</div>
       </div>
     </>
   );
