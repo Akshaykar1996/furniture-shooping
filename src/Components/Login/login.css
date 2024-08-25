@@ -1,9 +1,12 @@
-.kkkk{
+.Loginbody{
+    width: 100%;
     background-color: rgb(96, 109, 212);
     /* background-image: url(public/image/image1.jpg); */
 }
 
-
+.google{
+    height: 30px;
+}
 
 .container{
     display: flex;
@@ -21,8 +24,9 @@
     width: 23rem;
     height: 30rem;
     background-color: rgb(219, 208, 208);
-    margin-top: 7rem;
+    margin-top: 7.5rem;
     border-radius: 10px;
+    margin-bottom: 8.1rem;
 }
 
 .log{
@@ -37,14 +41,19 @@
     justify-content: space-evenly;
 }
 
-.box1{
+.button{
     height: 40px;
     width: 140px;
     margin-top: 5px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid black;    
 }
 
+.icon{
+    height: 5px;
+    width: 5px;
+    color: brown;
+}
 
 .user{
     margin-top: 20px;

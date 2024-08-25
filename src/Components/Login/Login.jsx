@@ -4,7 +4,7 @@ import "./login.css";
 export const Login = () => {
   return (
     <>
-    <div className='body'>
+    <div className='Loginbody'>
       <div className='container'>
         <div className='heading'>
               FURNITURE SHOOPING
@@ -14,10 +14,10 @@ export const Login = () => {
           <h2 className='log'>Log In With</h2>
           <div className='img-container'>
             <div>
-              <button className='box1'><i className='icon' class="fa-brands fa-google"></i>Google</button>
+              <button className='button'><img className='google' src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png" alt="" />Google</button>
             </div>
             <div>
-              <button className='box1'><i class="fa-brands fa-apple"></i>Apple</button>
+              <button className='button'><i className='icon' class="fa-brands fa-apple"></i>Apple</button>
             </div>       
           </div>
           
@@ -37,16 +37,13 @@ export const Login = () => {
           </div>
 
           <div className='account'>
-            <p>Don't have an account <a className='signup' href=''>Signup</a></p>
-            
-          </div>
+            <p>Don't have an account <a className='signup' href=''>Signup</a></p>          
+          </div> 
 
-          
         </div>
 
       </div>
     </div>
-
     </>
   )
 }
