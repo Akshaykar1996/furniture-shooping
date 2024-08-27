@@ -121,3 +121,48 @@
 .signup{
     color: blue;
 }
+
+
+
+
+@media all and (max-width: 768px) {
+    .Loginbody{
+        background-color: rgb(54, 155, 198);
+        height: 100%;
+        width: 100%;
+    }
+    .container{
+        display: block;
+    }
+    .heading>h1{
+        color: rgb(226, 226, 40); 
+        text-align: center;
+        font-size: 70px;
+        padding-top: 4rem;
+    }
+    .heading{
+        width: 100%;
+    }
+    .LoginBox{
+        width: 100%;
+    }
+    .LoginBox>box{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media all and (max-width: 468px) {
+    .Loginbody{
+        background-color: rgb(80, 171, 176);
+        height: 100%;
+        width: 100%;
+    }
+    .heading>h1{
+        color: rgb(239, 233, 233); 
+        text-align: center;
+        font-size: 40px;
+        padding-top: 4rem;
+    }
+    
+}
